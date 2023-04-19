@@ -1,0 +1,77 @@
+.left .personal {
+    
+}
+
+
+.left .personal h4 {
+    text-align: center;
+    padding: 6px 0px;
+    background-color: var(--darkslategrey);
+    color: var(--aliceblue);
+    border-radius: 2px;
+    margin-bottom: 6px;
+}
+
+
+
+
+.left .personal h4 i {
+    display: inline-block;
+}
+
+
+.personal-container {
+    display: none;
+}
+
+
+.left .personal label {
+    margin-top: 6px;
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.658);
+}
+
+.left .personal input[type="text"] {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    margin: 3px 0px;
+    margin-bottom: 6px;
+    padding: 6px 2px;
+    background-color: aliceblue;
+}
+
+.left .personal input[type="text"]:focus {
+    outline: 2px solid grey;
+}
+
+
+.left .show-details {
+    width: 100%;
+    margin-top: 6px;
+    padding: 6px 0px;
+    background-color: var(--aliceblue);
+    color: var(--darkslategrey);
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid var(--aliceblue);
+    outline: 2px solid var(--aliceblue);
+    /*  */
+    
+    transition: all .2s ease-in;
+}
+
+
+.left .show-details:hover {
+    background-color: var(--darkslategrey);
+    color: var(--aliceblue);
+    outline: 2px solid var(--darkslategrey);
+}
+.left .show-details:active {
+    background-color: rgba(33, 54, 54, 0.986);
+    color: var(--aliceblue);
+    outline: 2px solid var(--darkslategrey);
+}
+

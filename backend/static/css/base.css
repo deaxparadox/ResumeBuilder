@@ -1,0 +1,60 @@
+:root {
+    --darkslategrey: darkslategrey;
+    --aliceblue: aliceblue;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+}
+body > .footer {
+    position: sticky;
+    top: 100vh
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--darkslategrey);
+    color: var(--aliceblue);
+}
+.header h1 {
+    padding: 12px;
+}
+
+
+
+.row {
+    display: flex;
+}
+.row .left,.content,.right {
+    padding: 12px;
+}
+.row .left {
+    width: 20%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    height: 900px;
+}
+.row .content {
+    width: 60%;
+    height: 100vh;
+    background-color: var(--darkslategrey);
+}
+.row .right {
+    width: 20%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--darkslategrey);
+    color: var(--aliceblue);
+}
+.footer h1 {
+    padding: 12px;
+}

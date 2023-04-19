@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Resume Builder
+{% endblock title %}
+
+{% comment %} CSS {% endcomment %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/resume/resume.css' %}">
+    <link rel="stylesheet" href="{% static 'css/resume/template1.css' %}">
+    <link rel="stylesheet" href="{% static 'css/resume/template2.css' %}">
+    <script src="https://unpkg.com/lodash@4.17.20"></script>
+{% endblock extra_css %}
+
+{% block left %}
+    {% include "resume/include/left.html" %}
+{% endblock left %}
+
+{% block content %}
+    {% include "resume/include/content.html" %}
+{% endblock content %}
+
+{% block right %}
+    {% include "resume/include/right.html" %}
+{% endblock right %}
+
+{% block extra_js %}
+    <script >
+        let exports = {}
+    </script>
+    <script src="{% static 'js/dist/main.js' %}"></script>
+    {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> {% endcomment %}
+{% endblock extra_js %}
