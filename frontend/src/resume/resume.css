@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+/* 
+ * RESUME PAGE
+ *
+ */
+
+#resume-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* ############################################################ */
+
+/* 
+ * FLOAT INFORMATION
+ *
+ */
+#information-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+#information {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#information-button {
+    font-size: 20px;
+    margin: 20px;
+    padding: 35px 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#information-panel {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    background-color: darkslategrey;
+    z-index: 2;
+    width: 0vw;
+    height: 80vh;
+    overflow-x: hidden;
+    background-color: rgba(128, 128, 128, 0.445);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+#form {
+    background-color: darkgray;
+    width: 90%;
+}
+
+#resume-title {
+
+}
+.resume-title-list {
+    padding: 30px;
+}
+
+#information-save {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ################################################################ */
+
+/* FLOAT-TEMPLATE-LIST */
+#float-template-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#float-template-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#float-template-list-button {
+    font-size: 20px;
+    margin: 20px;
+    padding: 45px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#float-template-list-panel {
+    /* font-size: 20px; */
+    /* margin-rig: 20px; */
+    /* padding: 45px 15px; */
+    /* border-radius: 50%; */
+    position: absolute;
+    right: 20px;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: all 0.5s;
+}
+#template-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(189, 183, 107, 0.562);
+    border-radius: 10px;
+    padding: 10px;
+}
+.template-listitem {
+    height: 250px;
+    width: 180px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 6px 0px;
+    padding: 12px;
+}
+.template-listitem * {
+    font-size: 30%;
+}
+
+
+/* ################################################################ */
+
+/* 
+ * RESUME CONTAINER
+ */
+#resume-container {
+    height: 1132px;
+    width: 794px;
+    background-color: rgba(252, 247, 207, 0.514);
+    box-shadow: 0px 0px 5px 1px #ffd00091;
+}
+

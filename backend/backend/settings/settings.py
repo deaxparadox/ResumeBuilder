@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "api.apps.ApiConfig",
     "resume.apps.ResumeConfig",
     "builder.apps.BuilderConfig",
+    "chat.apps.ChatConfig",
 ]
 
 MIDDLEWARE = [

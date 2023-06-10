@@ -2,6 +2,7 @@ import { jsPDF } from 'jspdf';
 import _ from 'lodash';
 
 import changeTemplates from './template';
+import chat from './chat';
 
 // const doc = new jsPDF();
 // doc.text("hello world!", 10, 10);
@@ -130,6 +131,10 @@ function showPersonal() {
 (function() {
     changeTemplates();
 
+    let c: chat = new chat();
+    c.show();
+    c.hide();
+    
     let p = new Personal();
     p.find()
 

@@ -4,6 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const template_1 = __importDefault(require("./template"));
+const chat_1 = __importDefault(require("./chat"));
 class Personal {
     #firstName;
     #lastName;
@@ -106,6 +107,9 @@ function showPersonal() {
 // }
 (function () {
     (0, template_1.default)();
+    let c = new chat_1.default();
+    c.show();
+    c.hide();
     let p = new Personal();
     p.find();
     showPersonal();

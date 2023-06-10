@@ -1,0 +1,114 @@
+#template1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center;
+    height: 100%; */
+    
+    /* background-color: aqua; */
+}
+
+
+/* #template1-personal, #template1-education, #template1-certification {
+    height: 32%;
+    background-color: azure;
+    width: 100%;
+}
+
+#template1-personal {
+    font-weight: bold;
+    
+}
+ */
+
+
+#personal {
+    cursor: pointer;
+    /* background-color: aliceblue; */
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid #ffd000bd;
+}
+#personal:hover {
+    background-color: #ffd0006e;
+}
+
+#personal-fullname {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+#personal-list {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    font-weight: bold;
+}
+/*  */
+#personal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 0vw;
+    background-color: #ffd00069;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    overflow: hidden;
+}
+#personal-panel {
+    z-index: inherit;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1e19e8;
+    
+}
+#personal-panel input {
+    display: block;
+    width: 500px;
+    padding: 10px 10px;
+}
+#personal-panel label {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 3px;
+    color: rgb(255, 186, 12);
+}
+#personal-save {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    padding: 20px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+/* 
+ *
+ * DESCRIPTION
+ *
+ */
+#description {
+    font-size: 15px;
+    /* background-color: aliceblue; */
+    border-bottom: 1px solid #ffd0006e;
+    cursor: pointer;
+}
+#description:hover {
+    background-color: #ffd0006e;
+}
+#description-para {
+    margin: 20px
+}
