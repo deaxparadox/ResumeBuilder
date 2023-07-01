@@ -3,4 +3,7 @@ channels==4.0.0
 djangorestframework==3.14.0
 graphene-django==3.0.0
 daphne==4.0.0
+<<<<<<< HEAD
 psycopg2-binary==2.9.6
+=======
+>>>>>>> 26407e3282016a52fa82e990b1d2986de42c3082
